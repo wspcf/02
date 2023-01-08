@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+    <style>
+      * {
+      }
+      .container {
+        width: 200px;
+        height: 200px;
+        background-color: lightskyblue;
+        margin: 0 auto;
+      }
+      .box{
+        width: 200px;
+        height: 200px;
+        background-color: #cc0000;
+        transform: scale(0.95);
+        transition: 0.4s;
+      }
+      .box:hover{
+        transform: scale(0.75) rotate(45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h4>Fahim 1</h4>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <h4>Fahim 2</h4>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <h4>Fahim 3</h4>
+      </div>
+    </div>
+  </body>
+</html>
